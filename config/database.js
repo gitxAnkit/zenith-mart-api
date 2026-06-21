@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const dns = require('dns');
 
-// Forces Node.js to use Google's DNS servers for SRV resolution
+// Forces Node.js to use Google's DNS servers for SRV resolutions
 dns.setServers(['8.8.8.8', '8.8.4.4']);
 
 const connectDB = () => {
